@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightpink;
+    margin: 0;
+    font-family: arial,sans-serif;
+}
+
+button{
+    border: none;
+    padding: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background-colour 0.2s ease;
+}
+
+button:hover{
+    background-color: violet;
+}
+button:active{
+    background-color: lightyellow;
+}
+#display{
+  background-color: rgb(172, 151, 192);
+  color: black;
+  font-size: 2em;
+  padding: 10px;
+  text-align: right;
+  height: 60px;
+  box-sizing: border-box;
+
+}
+#prem{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+#calculator{
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 220px;
+}
+
